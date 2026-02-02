@@ -1,0 +1,203 @@
+{
+  "users": [
+    {
+      "email": "budi@gmail.com",
+      "password": "123456",
+      "code": "cus0001",
+      "register": "2023-12-21",
+      "approved": "2023-12-21",
+      "status": "active",
+      "type": "admin",
+      "id": "C7FlY03"
+    },
+    {
+      "email": "andi@gmail.com",
+      "password": "12234",
+      "code": "USR0002",
+      "register": "2023-12-21",
+      "approved": "2023-12-21",
+      "status": "pending",
+      "type": "member",
+      "id": "QM8BxuF"
+    },
+    {
+      "email": "rudi@gmail.com",
+      "password": "12234",
+      "code": "USR0003",
+      "register": "2023-12-21",
+      "approved": "2023-12-21",
+      "status": "active",
+      "type": "collector",
+      "id": "yFCZnQF"
+    },
+    {
+      "email": "Komang@gmail.com",
+      "password": "123456",
+      "code": "USR0004",
+      "register": "2023-12-21",
+      "approved": "2023-12-21",
+      "status": "close",
+      "type": "member",
+      "id": "CGJOZIA"
+    },
+    {
+      "email": "Sinta@gmail.com",
+      "password": "12344",
+      "code": "USR0005",
+      "register": "2023-12-21",
+      "approved": "2023-12-21",
+      "status": "close",
+      "type": "member",
+      "id": "fOZyyK1"
+    },
+    {
+      "email": "ferdy@email.com",
+      "password": "123456",
+      "code": "USR0007",
+      "register": "2023-12-25",
+      "approved": "2023-12-25",
+      "status": "active",
+      "type": "member",
+      "id": "xm4h8OX"
+    },
+    {
+      "email": "Bella@gmail.com",
+      "password": "123456",
+      "code": "USR0008",
+      "register": "2023-12-25",
+      "approved": "2023-12-25",
+      "status": "active",
+      "type": "member",
+      "id": "Zucb-aG"
+    },
+    {
+      "email": "budi@gmail.com",
+      "password": "",
+      "code": "alert('tesss')",
+      "register": "2023-12-26",
+      "approved": "2023-12-26",
+      "status": "active",
+      "type": "member",
+      "id": "1TjFQZA"
+    },
+    {
+      "email": "tess@email.com",
+      "password": "",
+      "code": "USR000",
+      "register": "",
+      "approved": "",
+      "status": "pending",
+      "type": "admin",
+      "id": "Id0SVSg"
+    },
+    {
+      "email": "aaaa@email.com",
+      "password": "aaaaa",
+      "code": "USR000",
+      "register": "",
+      "approved": "",
+      "status": "",
+      "type": "",
+      "id": "SzU6xIj"
+    },
+    {
+      "email": "tess@email.com",
+      "password": "1222",
+      "code": "USR000",
+      "register": "",
+      "approved": "",
+      "status": "",
+      "type": "",
+      "id": "iRSV8yi"
+    },
+    {
+      "email": "",
+      "password": "",
+      "code": "USR000",
+      "register": "",
+      "approved": "",
+      "status": "",
+      "type": "",
+      "id": "NDlGFYX"
+    },
+    {
+      "email": "budi@gmail.com",
+      "password": "",
+      "code": "USR000",
+      "register": "",
+      "approved": "",
+      "status": "",
+      "type": "",
+      "id": "YN9IFMB"
+    }
+  ],
+  "loans": [
+    {
+      "loan_type_id": "pinjaman_usaha",
+      "due_date": "2023-12-25",
+      "status": "active",
+      "amount": "2000000",
+      "balance": "200000",
+      "rate_type": "tetap",
+      "tenor": "12",
+      "admin_fee": "200000",
+      "user_id": "C7FlY03",
+      "id": 1
+    },
+    {
+      "loan_type_id": "",
+      "due_date": "2023-12-25",
+      "status": "pinjaman_motor",
+      "amount": "200000000",
+      "rate_type": "tetap",
+      "tenor": "12",
+      "admin_fee": "20000",
+      "user_id": "C7FlY03",
+      "id": 2
+    },
+    {
+      "loan_type_id": "pinjaman_motor",
+      "due_date": "2023-12-25",
+      "status": "",
+      "amount": "2000000",
+      "rate_type": "menurun",
+      "tenor": "12",
+      "admin_fee": "20000",
+      "user_id": "fOZyyK1",
+      "id": 3
+    },
+    {
+      "loan_type_id": "pinjaman_motor",
+      "due_date": "2023-12-25",
+      "status": "",
+      "amount": "200000",
+      "rate_type": "tetap",
+      "tenor": "24",
+      "admin_fee": "20000",
+      "user_id": "xm4h8OX",
+      "id": 4
+    },
+    {
+      "loan_type_id": "pinjaman_usaha",
+      "due_date": "2023-12-25",
+      "status": "",
+      "amount": "4999998",
+      "rate_type": "tetap",
+      "tenor": "22",
+      "admin_fee": "30000",
+      "user_id": "Zucb-aG",
+      "id": 5
+    },
+    {
+      "loan_type_id": "pinjaman_motor",
+      "due_date": "2023-12-29",
+      "status": "",
+      "amount": "2550000000",
+      "rate_type": "tetap",
+      "tenor": "2000000",
+      "admin_fee": "2000",
+      "user_id": "xm4h8OX",
+      "id": 7
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "Index": {
+    "title": "Hello world!"
+  },
+  "input": {
+    "button": {
+      "create": "Tambah",
+      "update": "Update",
+      "delete": "Delete",
+      "view": "View",
+      "search": "Cari",
+      "export": "Export",
+      "close": "Close",
+      "save": "Save",
+      "list": "List",
+      "filter": "Filter",
+      "search_place_holder": "masukkan kata pencarian...",
+      "activate": "Activate"
+    }
+  },
+  "confirm": {
+    "create": "Add New",
+    "update": "Update",
+    "delete": "Are you sure delete "
+  },
+  "payreceivable": {
+    "payables": {
+      "label": "Payable",
+      "code": "Code",
+      "title": "Title",
+      "memo": "Memo",
+      "register": "Register",
+      "amount": "Amount",
+      "type": "Type",
+      "status": "Status",
+      "user_id": "User Name",
+      "account_id": "Payable Account",
+      "account_pay": "Payment Account"
+    },
+    "payabletransaction": {
+      "label": "Payable Transaction",
+      "code": "Code",
+      "title": "Title",
+      "memo": "Memo",
+      "register": "Register",
+      "amount": "Amount",
+      "type": "Type",
+      "status": "Status",
+      "payreceivable_id": "Payable Name",
+      "account_id": "Payment Trs Account",
+      "payreceivable_account_id": "Payable Trs Account"
+    },
+    "receivables": {
+      "label": "Receivable",
+      "code": "Code",
+      "title": "Title",
+      "memo": "Memo",
+      "register": "Register",
+      "amount": "Amount",
+      "type": "Type",
+      "status": "Status",
+      "user_id": "User Name",
+      "account_id": "Receivable Account",
+      "account_pay": "Payment Account"
+    },
+    "receivabletransaction": {
+      "label": "Receivable Transaction",
+      "code": "Code",
+      "title": "Title",
+      "memo": "Memo",
+      "register": "Register",
+      "amount": "Amount",
+      "type": "Type",
+      "status": "Status",
+      "payreceivable_id": "Receivable Name",
+      "account_id": "Payment Trs Account",
+      "payreceivable_account_id": "Receivable Trs Account"
+    }
+  },
+  "user": {
+    "users": {
+      "title": "User",
+      "code": "Kode",
+      "email": "Email",
+      "password": "Password",
+      "c_password": "Konfirmasi Password",
+      "contact_id": "Contact",
+      "role_id": "Role",
+      "status": "Status",
+      "type": "Tipe",
+      "register": "Register",
+      "type_option": {
+        "member": "Member",
+        "staff": "Collector",
+        "admin": "Admin",
+        "supplier": "Supplier",
+        "public": "Customer"
+      }
+    },
+    "staffs": {
+      "title": "Staff",
+      "code": "Code",
+      "email": "Email",
+      "password": "Password",
+      "c_password": "Confirm Password",
+      "contact_id": "Contact",
+      "role_id": "Role",
+      "status": "Status",
+      "type": "Type",
+      "register": "Register",
+      "type_option": {
+        "member": "Member",
+        "staff": "Collector",
+        "admin": "Admin",
+        "supplier": "Supplier",
+        "public": "Customer"
+      }
+    },
+    "contacts": {
+      "title": "Contact",
+      "name": "Name",
+      "card_id": "ID Card",
+      "birthday": "Birthday",
+      "sex": "Jenis Kelamin",
+      "email": "Email",
+      "phone": "Phone",
+      "phone2": "Phone 2",
+      "description": "Description",
+      "sex_option": {
+        "M": "Pria",
+        "F": "Wanita"
+      }
+    },
+    "permissions": {
+      "title": "Permission",
+      "register": "Register"
+    },
+    "roles": {
+      "title": "Role Title",
+      "permissions": "Permission Roles",
+      "register": "Register"
+    },
+    "requests": {
+      "title": "Requests",
+      "type": "Type",
+      "memo": "Memo",
+      "created_at": "Register",
+      "status": "Status"
+    }
+  },
+  "accounting": {
+    "accounts": {
+      "label": "Account",
+      "title": "Accounts",
+      "code": "Code",
+      "name": "Name",
+      "type": "Type",
+      "postable": "Postable",
+      "parent_id": "Parent",
+      "status": "Status",
+      "balance": "Balance",
+      "balance_sheet": "Balance Sheet",
+      "profit_loss": "Profit/Loss",
+      "type_option": {
+        "Assets": "Assets",
+        "Liabilities": "Liabilities",
+        "Equity": "Equity",
+        "Revenues": "Revenues",
+        "Expenses": "Expenses"
+      }
+    },
+    "ledgers": {
+      "label": "Ledgers",
+      "title": "Name",
+      "code": "Code",
+      "user_id": "User",
+      "register": "Register",
+      "memo": "Memo",
+      "status": "Status",
+      "mutation": "Mutation",
+      "ledger_detail": "Ledger Detail"
+    },
+    "ledger_account": {
+      "title": "Ledger Detail",
+      "type": "Type",
+      "amount": "Amount",
+      "type_option": {
+        "D": "Debit",
+        "C": "Credit"
+      }
+    }
+  },
+  "capital": {
+    "capitals": {
+      "title": "Capital",
+      "register": "Register",
+      "memo": "Memo",
+      "payment_type": "Payment Type",
+      "amount_option": {
+        "principle": "Simpanan Pokok",
+        "mandatory": "Simpanan Wajib"
+      }
+    }
+  },
+  "trades": {
+    "products": {
+      "title": "Product",
+      "code": "Code",
+      "name": "Name",
+      "price": "Price",
+      "unit": "Unit",
+      "cogs": "Cogs",
+      "price_level": "Price Level",
+      "qty": "Quantity",
+      "list_unit": "List Unit",
+      "materials": "Materials",
+      "type": "Tipe"
+    },
+    "suppliers": {
+      "title": "Supplier",
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "staffs": {
+      "title": "Staff",
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "customers": {
+      "title": "Customer",
+      "name": "Name",
+      "address": "Address",
+      "phone": "Phone"
+    },
+    "warehouses": {
+      "title": "Warehouses",
+      "name": "Name",
+      "address": "Address"
+    },
+    "transactions": {
+      "title": "Transactions",
+      "register": "Register",
+      "type": "Type",
+      "code": "Code",
+      "status": "Status",
+      "supplier_id": "supplier_id",
+      "so": "Sale Order",
+      "si": "Sale Invoice",
+      "sd": "Sale Delivery",
+      "pd": "Purchase Order",
+      "pi": "Purchase Invoice",
+      "pr": "Purchase Delivery",
+      "confirmSend": "Are you sure continue to delivery",
+      "confirmInvoice": "Are you sure continue to invoice",
+      "changeCogs": "Merubah harga pokok",
+      "cost": "Cost"
+    },
+    "transaction_product": {
+      "title": "List Product"
+    },
+    "units": {
+      "title": "Unit",
+      "name": "Name",
+      "price": "Price",
+      "qty": "Quantity"
+    },
+    "product_materials": {
+      "title": "Bill of Materials"
+    }
+  },
+  "header": {
+    "1": "Home page",
+    "2": "House",
+    "3": "About Us",
+    "4": "Language",
+    "5": "Company History",
+    "6": "Vision and mission"
+  }
+}
