@@ -1,7 +1,7 @@
-Login demo:
-https://jaan-erp.vercel.app/
-email = galangcahya@balialgoritm.com
-password = 123456
+Login demo:</br>
+https://jaan-erp.vercel.app/</br>
+email = galangcahya@balialgoritm.com</br>
+password = 123456</br>
 
 -local run: npm run dev
 -galangcahya@balialgoritm.com 123456
